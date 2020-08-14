@@ -41,7 +41,7 @@ export class AuthComponent {
             resData => {
                 console.log(resData)
                 this.isLoading = false;
-                this.router.navigate(['/recipes'])
+                this.router.navigate(['/recipes']);
             },
             errorMessage => {
                 console.log(errorMessage);
